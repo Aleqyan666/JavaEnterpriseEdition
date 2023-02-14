@@ -16,7 +16,7 @@ public class Methods {
      *
      */
     public void returnNothing(){}
-
+//
     /**
      *Write a method which .has a boolean input parameters  and print “Hello World”.
      * @param h7

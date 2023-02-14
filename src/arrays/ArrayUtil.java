@@ -15,7 +15,7 @@ public class ArrayUtil {
             }
         }
     }
-
+//
     /**
      * print the elements of the given array in reversed order
      */

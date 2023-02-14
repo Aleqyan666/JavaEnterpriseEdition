@@ -222,7 +222,7 @@ public class Algorithm2 {
         System.out.println("Your power: ");
         int power = scanner.nextInt();
         int initialPower = 1;
-
+//
         if (power >= 1) {
             for (int i = 1; i <= power; i++) {
                 initialPower *= number;

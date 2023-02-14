@@ -7,6 +7,7 @@ public class Algorithms {
      * @param number
      * @return largest prime factor of a given number.
      */
+    //
     public static void largestPrimeFactor(long number) {
         int j;
         long myNumber = number;
