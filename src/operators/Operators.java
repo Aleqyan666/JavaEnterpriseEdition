@@ -2,7 +2,7 @@ package operators;
 
 public class Operators {
     //Arithmetic operators
-//
+
    static int a = 8;
    static int b = 6;
    static double c = 6.4;
