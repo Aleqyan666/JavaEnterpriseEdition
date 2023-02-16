@@ -191,7 +191,6 @@ public class ArrayUtil {
             int decimalNumber = 0, i = 0;
             int remainder;
             Integer number = sc.nextInt();
-            number.toString().toCharArray();
             System.out.println(number);
             while (number != 0) {
                 remainder = number % 10;
