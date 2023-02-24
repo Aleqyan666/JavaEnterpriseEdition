@@ -127,7 +127,7 @@ public class StringUtil_2 {
 
     }
 
-    static void reverseSubString(String myLine, String mySub) {
+     void reverseSubString(String myLine, String mySub) {
         int position = mySub.indexOf(myLine);
         StringBuilder ending = new StringBuilder(myLine);
         StringBuilder finalResult = new StringBuilder();
@@ -143,10 +143,6 @@ public class StringUtil_2 {
     }
 
     public static void main(String[] args) {
-
-         reverseSubString("kabar3","bar");
-
-
 
 
     }
