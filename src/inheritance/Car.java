@@ -1,6 +1,11 @@
 package inheritance;
 
 public class Car {
+    public Car(int passengerCount, char engineType) {
+        this.passengerCount = passengerCount;
+        this.engineType = engineType;
+    }
+
     private int passengerCount;
     private char engineType;
 
@@ -11,7 +16,7 @@ public class Car {
     public void setPassengerCount(int passengerCount) {
         if (passengerCount >= 2) {
             this.passengerCount = passengerCount;
-        }
+        }else this.passengerCount = 0;
     }
 
     public char getEngineType() {

@@ -11,7 +11,7 @@ public class Address {
         this.district = district;
     }
 
-    class Company{
+    class User{
        public String name;
        public Address address;
     }

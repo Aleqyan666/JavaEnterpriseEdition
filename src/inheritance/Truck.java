@@ -1,7 +1,8 @@
 package inheritance;
 
 public class Truck extends Car{
-    public Truck(int capacity) {
+    public Truck(int passengerCount, char engineType, int capacity) {
+        super(passengerCount, engineType);
         this.capacity = capacity;
     }
 
