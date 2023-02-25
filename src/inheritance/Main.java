@@ -4,9 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
       Child child = new Child();
-      child.showMessage();
+      child.show();
 
-        SuperClass superClass = new SuperClass("York");
-        System.out.println(superClass.getMessage());
+
+        SubClass subClass = new SubClass("Hello Parent Class");
+        subClass.showMessages();
     }
 }

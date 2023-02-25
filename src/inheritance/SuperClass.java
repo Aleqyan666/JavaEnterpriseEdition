@@ -1,17 +1,17 @@
 package inheritance;
 
 public class SuperClass {
-    public String message = "Hello SuperClass class";
+    public String messages = "Hello SuperClass class";
 
     public String getMessage() {
-        return message;
+        return messages;
     }
 
     public void setMessage(String message) {
-        this.message = message;
+        this.messages = message;
     }
 
     public SuperClass(String message) {
-        this.message = message;
+        this.messages = message;
     }
 }

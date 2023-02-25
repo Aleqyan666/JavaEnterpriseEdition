@@ -13,4 +13,8 @@ public class SubClass extends SuperClass{
     public void setMessage(String message) {
         this.message = message;
     }
+    public void showMessages(){
+        System.out.println(message);
+        System.out.println(super.getMessage());
+    }
 }
