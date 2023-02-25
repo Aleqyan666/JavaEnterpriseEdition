@@ -1,9 +1,14 @@
 package inheritance;
 
-public class Truck extends Car{
+public abstract class Truck extends Car{
     public Truck(int passengerCount, char engineType, int capacity) {
         super(passengerCount, engineType);
         this.capacity = capacity;
+    }
+
+    @Override
+    public void printingDetails() {
+        super.printingDetails();
     }
 
     private int capacity ;

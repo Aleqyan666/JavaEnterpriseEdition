@@ -9,5 +9,10 @@ public class Main {
 
         SubClass subClass = new SubClass("Hello Parent Class");
         subClass.showMessages();
+
+        Car car = new Car(5,'R');
+        car.printingDetails();
+        FordTruck fordTruck = new FordTruck(7,'L',10);
+
     }
 }

@@ -26,4 +26,7 @@ public class Car {
     public void setEngineType(char engineType) {
         this.engineType = engineType;
     }
+    public void printingDetails(){
+        System.out.println(getPassengerCount() + " Seats " + " Engine Type -->" + getEngineType());
+    }
 }
