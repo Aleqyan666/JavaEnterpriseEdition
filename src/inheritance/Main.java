@@ -1,5 +1,10 @@
 package inheritance;
 
+import inheritance.task1.Child;
+import inheritance.task2.SubClass;
+import inheritance.task4.Car;
+import inheritance.tasks5_7.FordTruck;
+
 public class Main {
 
     public static void main(String[] args) {

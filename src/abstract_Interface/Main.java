@@ -1,5 +1,13 @@
 package abstract_Interface;
 
+import abstract_Interface.task1.Child1;
+import abstract_Interface.task1.Child2;
+import abstract_Interface.task7.A_Student;
+import abstract_Interface.task7.B_Student;
+import abstract_Interface.task8.SubSubClass;
+import abstract_Interface.task9.Cats;
+import abstract_Interface.task9.Dogs;
+
 public class Main {
 
     public static void main(String[] args) {
