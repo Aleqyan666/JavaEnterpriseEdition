@@ -14,7 +14,7 @@ public class Signal {
             }
         };
         //
-        for (int i = 0; i < Integer.MAX_VALUE; i++){
+        for (int i = 0; i < 500; i++){
             switch (signal){
                 case RED: signal = TrafficLight.YELLOW;
                     try{
@@ -38,7 +38,9 @@ public class Signal {
                         timer.schedule(task,50,100);
                         System.out.println();
                     }catch (Exception e){
-                    }
+                    }//finally {
+//                        signal = TrafficLight.RED;
+//                    }
                     break;
             }
         }
