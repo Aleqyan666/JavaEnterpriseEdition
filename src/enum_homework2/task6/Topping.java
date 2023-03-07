@@ -1,9 +1,5 @@
 package enum_homework2.task6;
 
-import enum_homework2.task1.StateShifting;
-
-import java.util.Scanner;
-
 public enum Topping {
     OPTION1(1.5), OPTION2(0.8), OPTION3(6.2), OPTION4(2.1), OPTION5(1.5);
 
